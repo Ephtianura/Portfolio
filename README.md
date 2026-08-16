@@ -11,17 +11,19 @@
 
 ## 🧭 Навігація за каталогом
 
-| Проєкт                            | Домен                 | Стек                             | Результат                                                                       |
-| :-------------------------------- | :-------------------- | :------------------------------- | :------------------------------------------------------------------------------ |
-| **[🌸 AniFlow](#aniflow)**        | Web / Highload        | .NET 8, Next.js, RabbitMQ, Redis | Повний цикл розробки та впровадження продукту                                   |
-| **[🌌 Aurora](#aurora)**          | Web / Desktop / Media | .NET 8, React, FFmpeg, SignalR   | Пакетна конвертація, унікальна логіка                                           |
+| Проєкт                                  | Домен                 | Стек                             | Результат                                                                       |
+| :-------------------------------------- | :-------------------- | :------------------------------- | :------------------------------------------------------------------------------ |
+| **[🌸 AniFlow](#aniflow)**              | Web / Highload        | .NET 8, Next.js, RabbitMQ, Redis | Повний цикл розробки та впровадження продукту                                   |
+| **[🌌 Aurora](#aurora)**                | Web / Desktop / Media | .NET 8, React, FFmpeg, SignalR   | Пакетна конвертація, унікальна логіка                                           |
 | **[⚙️ Grinding Calculator](#grinding)** | Engineering           | C#, .NET, WinForms               | Рутина інженерів **120 хв $\rightarrow$ 5 хв**, впроваджено в навчальний процес |
-| **[🛡️ Posture Guard](#posture)**  | Hardware / IoT        | C++, ESP8266, Схемотехніка       | Від схеми до міжнародних нагород                                                |
+| **[🛡️ Posture Guard](#posture)**        | Hardware / IoT        | C++, ESP8266, Схемотехніка       | Від схеми до міжнародних нагород                                                |
 
 <h2 id="aniflow">🌸 AniFlow – Агрегатор Українського Аніме Контенту</h2>
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/579bbc32-8462-477f-af13-26ddaa5c43b4" alt="aniflow-banner" width="90%"/>
+
+</br>
 
 [![Live](https://img.shields.io/badge/Live-aniflow.xyz-AB5BDB?style=for-the-badge&logo=slint&logoColor=white)](https://aniflow.xyz)
 [![Repository](https://img.shields.io/badge/Repository-24292F?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Ephtianura/AniFlow)
@@ -29,7 +31,7 @@
 <!-- 181717 24292F 010409 -->
 </div>
 
-**AniFlow** – працюючий на ринку повнофункціональний сервіс для перегляду аніме українською мовою. 
+**AniFlow** – працюючий на ринку повнофункціональний сервіс для перегляду аніме українською мовою.
 
 Автономна платформа з багаторівневим кешуванням, автоматичною синхронізацією каталогу через партнерів, соціальними функціями, вбудованим інструментарієм для моніторингу бізнес-метрик та надійно розгорнутою хмарною інфраструктурою.
 
@@ -41,18 +43,22 @@ _**Стек:** C#, ASP.NET Core, EF Core, PostgreSQL, Redis, RabbitMQ, SignalR, 
 
 <img src="./docs/aurora-banner.webp" alt="Aurora Demo" width="90%"/>
 
+</br>
+
 [![Repository](https://img.shields.io/badge/Repository-24292F?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Ephtianura/Aurora)
 
 </div>
 
 Додаток для пакетного завантаження аудіо з YouTube, який самостійно через FFmpeg вкладає обложки, додає метаданні та зберігає готові MP3 прямо в потрібну папку на ПК. Без обмежень і з повноцінним інтерфейсом медіатеки у вигляді зручного проводника.
 
-***Стек:** C#, ASP.NET Core, RabbitMQ, SignalR, FFmpegCore, YouTubeExplode, yt_dlp Docker; React, Next.js, TailwindCSS.*
+_**Стек:** C#, ASP.NET Core, RabbitMQ, SignalR, FFmpegCore, YouTubeExplode, yt_dlp Docker; React, Next.js, TailwindCSS._
 
 <h2 id="grinding">⚙️ Grinding Calculator – Інженерне ПЗ автоматизації розрахунку режимів шліфування</h2>
 
 <div align="center">
   <img src="./docs/grinding-banner.png" alt="Grinding Calculator Demo" width="90%"/>
+
+</br>
 
 [![](https://img.shields.io/badge/Releases-35439F?style=for-the-badge)](https://github.com/Ephtianura/GrindingCalc/releases/tag/v1.1)
 [![Repository](https://img.shields.io/badge/Repository-24292F?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Ephtianura/GrindingCalc)
@@ -65,14 +71,16 @@ _**Стек:** C#, ASP.NET Core, EF Core, PostgreSQL, Redis, RabbitMQ, SignalR, 
 
 Після розробки додаток почали застосовувати у навчальних процесах профільних дисциплін.
 
-***Стек:** C#, .NET, WinForms.*
+_**Стек:** C#, .NET, WinForms._
 
 <h2 id="posture">🛡️ Posture Guard – IoT Система Моніторингу Осанки</h2>
 
 <div align="center">
   <img src="./docs/posture-guard-banner.webp" alt="Posture Guard Demo" width="90%"/>
-  
-[![](https://img.shields.io/badge/Повна-Презентація-8A2F6F?style=for-the-badge)](https://gamma.app/docs/-e7krxml48le5qmm)
+
+</br>
+
+[![Presentation](https://img.shields.io/badge/Повна-Презентація-8A2F6F?style=for-the-badge)](https://gamma.app/docs/-e7krxml48le5qmm)
 [![Repository](https://img.shields.io/badge/Repository-24292F?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Ephtianura/PostureGuard)
 
 </div>
@@ -83,8 +91,7 @@ _**Стек:** C#, ASP.NET Core, EF Core, PostgreSQL, Redis, RabbitMQ, SignalR, 
 
 Проєкт відзначений грамотами та офіційними сертифікатами на міжнародних науково-практичних конференціях
 
-
-***Стек:** С++, Platformio; ESP8266, BMI160, TP4056.*
+_**Стек:** С++, Platformio; ESP8266, BMI160, TP4056._
 
 <h2 id="ai-map">🗺️ AI Map [WIP]</h2>
 
@@ -92,7 +99,7 @@ Desktop додаток, який за допомогою комп'ютерног
 
 Проєкт призупинено після завершення активної розробки. Оформлення репозиторію перебуває на стадії доопрацювання.
 
-***Стек:** Python, Ultralytics YOLOv8, OpenCV, PyQt6, MSS*
+_**Стек:** Python, Ultralytics YOLOv8, OpenCV, PyQt6, MSS_
 
 ---
 
@@ -100,13 +107,13 @@ Desktop додаток, який за допомогою комп'ютерног
 
 ### 🤝 Готові зв'язатися?
 
-<a href="https://t.me/KykKyki">
+<a href="https://t.me/KykKyki" target="_blank">
     <img src="https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" height="36" />
 </a>
-<a href="https://www.linkedin.com/in/mantsurov-kostiantyn/">
+<a href="https://www.linkedin.com/in/mantsurov-kostiantyn/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" height="36" />
 </a>
-<a href="mailto:k.mantsurov@gmail.com">
+<a href="mailto:k.mantsurov@gmail.com" target="_blank">
     <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" height="36" />
 </a>
   
