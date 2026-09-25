@@ -35,7 +35,7 @@
 
 Автономна платформа з багаторівневим кешуванням, автоматичною синхронізацією каталогу через партнерів, соціальними функціями, вбудованим інструментарієм для моніторингу бізнес-метрик та надійно розгорнутою хмарною інфраструктурою.
 
-_**Стек:** C#, ASP.NET Core, EF Core, PostgreSQL, Redis, RabbitMQ, SignalR, Seq, Nginx, AWS S3, Cloudflare, CI/CD; React, TypeScript, Next.js, TailwindCSS._
+_**Стек:** C#, ASP.NET Core, EF Core, PostgreSQL, Redis, RabbitMQ, SignalR, Seq, Nginx, AWS S3, Cloudflare, CI/CD; React, TypeScript, Next.js, TailwindCSS_
 
 <h2 id="aurora">🌌 Aurora – Desktop Комбайн для конвертації музики на вебстеку</h2>
 
@@ -51,7 +51,7 @@ _**Стек:** C#, ASP.NET Core, EF Core, PostgreSQL, Redis, RabbitMQ, SignalR, 
 
 Додаток для пакетного завантаження аудіо з YouTube, який самостійно через FFmpeg вкладає обложки, додає метаданні та зберігає готові MP3 прямо в потрібну папку на ПК. Без обмежень і з повноцінним інтерфейсом медіатеки у вигляді зручного проводника.
 
-_**Стек:** C#, ASP.NET Core, RabbitMQ, SignalR, FFmpegCore, YouTubeExplode, yt_dlp Docker; React, Next.js, TailwindCSS._
+_**Стек:** C#, ASP.NET Core, RabbitMQ, SignalR, FFmpegCore, YouTubeExplode, yt-dlp, Docker; React, Next.js, TailwindCSS_
 
 <h2 id="grinding">⚙️ Grinding Calculator – Інженерне ПЗ автоматизації розрахунку режимів шліфування</h2>
 
@@ -71,7 +71,7 @@ _**Стек:** C#, ASP.NET Core, RabbitMQ, SignalR, FFmpegCore, YouTubeExplode, 
 
 Після розробки додаток почали застосовувати у навчальних процесах профільних дисциплін.
 
-_**Стек:** C#, .NET, WinForms._
+_**Стек:** C#, .NET, WinForms_
 
 <h2 id="posture">🛡️ Posture Guard – IoT Система Моніторингу Осанки</h2>
 
@@ -91,9 +91,28 @@ _**Стек:** C#, .NET, WinForms._
 
 Проєкт відзначений грамотами та офіційними сертифікатами на міжнародних науково-практичних конференціях
 
-_**Стек:** С++, Platformio; ESP8266, BMI160, TP4056._
+_**Стек:** С++, Platformio; ESP8266, BMI160, TP4056_
 
-<h2 id="ai-map">🗺️ AI Map [WIP]</h2>
+<h2 id="web-orchestra"> 🎹 Web-Orchestra (Client) [WIP]</h2>
+
+<!-- <div align="center">
+  <img src="" alt="" width="90%"/>
+</br> -->
+
+Клієнтський модуль для спільного виконання розподіленої музики, що дозволяє групі людей синхронно грати складні оркестрові партії як єдиний колектив.
+
+Програма зв'язується з оркестровим сервером по SignalR, синхронізує мілісекундні кванти часу по NTP і емулює апаратні натискання клавіш через низькорівневий Win API.
+
+Легковажний десктоп-хост на Photino.NET із сучасним інтерфейсом на React. Включає автоматизований CI/CD пайплайн GitHub Actions з генерацією інсталятора і тихою системою автооновлення.
+
+_**Стек:** C#, Photino.NET; Vite, React, TypeScript; Inno, Velopack_
+
+
+<h2 id="ai-map">🗺️ AI Map [Coming soon]</h2>
+
+<!-- <div align="center">
+  <img src="" alt="" width="90%"/>
+</br> -->
 
 Desktop додаток, який за допомогою комп'ютерного зору визначає дистанцію та азимут до об'єктів на карті в реальному часі з функцією відстеження.
 
